@@ -11,10 +11,7 @@ local colors = {
   yellow = "#FAC29A",
   orange = "#F09383",
   fg = "#8B8D8F",
-  bg = "#1D1F27",
-  gray1 = "#2E303E",
-  gray2 = "#1D1F27",
-  gray3 = "#2E303E",
+  bg = "#000000",
 }
 -- LuaFormatter on
 return {
@@ -28,8 +25,8 @@ return {
   command = { a = { fg = colors.bg, bg = colors.yellow, gui = "bold" } },
   replace = { a = { fg = colors.bg, bg = colors.red2, gui = "bold" } },
   inactive = {
-    a = { fg = colors.fg, bg = colors.gray1, gui = "bold" },
-    b = { fg = colors.fg, bg = colors.gray1 },
-    c = { fg = colors.fg, bg = colors.gray1 },
+    a = { fg = colors.fg, bg = colors.bg, gui = "bold" },
+    b = { fg = colors.fg, bg = colors.bg },
+    c = { fg = colors.fg, bg = colors.bg },
   },
 }
